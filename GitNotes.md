@@ -149,10 +149,15 @@ git push -u origin new_branch_name
 
 ### Delete Branch
 
-**Decription**: self explanatory </br>
+**Decription**: Local </br>
 
 ```GIT
 git branch -d name_of_branch
+```
+
+**Decription**: Remote </br>
+```GIT
+git push origin --delete branch-name
 ```
 
 ### Rename Branch
