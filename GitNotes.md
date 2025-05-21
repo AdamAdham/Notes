@@ -1,5 +1,21 @@
 # Git Notes
+## Tracking
+### Stop tracking after already committed
+To stop tracking something that’s already been committed in Git and make sure it’s not tracked again (like a file or folder you’ve just added to .gitignore), follow these steps:
 
+🧼 1. Add it to .gitignore
+```gitignore
+**/pycache
+```
+🗑 2. Remove it from Git’s tracking, but not from disk
+Use the --cached flag to untrack the file/folder without deleting it locally:
+```bash
+git rm -r --cached data/stocks/raw/
+```
+✅ 3. Commit the removal
+```bash
+git commit -m "Stop tracking data/stocks/raw/"
+```
 ## Cloning
 
 **Decription**: Getting downloading the repository </br>
@@ -133,10 +149,15 @@ git push -u origin new_branch_name
 
 ### Delete Branch
 
-**Decription**: self explanatory </br>
+**Decription**: Local </br>
 
 ```GIT
 git branch -d name_of_branch
+```
+
+**Decription**: Remote </br>
+```GIT
+git push origin --delete branch-name
 ```
 
 ### Rename Branch
