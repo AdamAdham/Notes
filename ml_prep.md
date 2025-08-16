@@ -472,8 +472,8 @@ We select the subtree $T$ that **minimizes** $R_\alpha(T)$. Higher $\alpha$ favo
 
 #### Multilabel Classification vs Multiclass Classification
 
-- **Multilabel Classification**: More than 2 mutually exclusive classes (one hot vectors)
-- **Multiclass Classification**: Multiple labels that can be true at once (Movie Genres)
+- **Multilabel Classification**: More than 2 mutually exclusive classes (one hot vectors) (one class per instance/input)
+- **Multiclass Classification**: Multiple labels that can be true at once (Movie Genres) (multiple classes per instance)
 
 #### N grams
 
