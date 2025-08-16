@@ -56,7 +56,7 @@ Word2Vec has two main architectures:
 
 #### Lemmatization
 
-Reduces a word to its base or dictionary form (lemma), using vocabulary and grammar rules <br>
+Reduces a word to its base or dictionary form (lemma), using vocabulary and grammar rules (has to be an actual word) <br>
 
 Examples:
 
