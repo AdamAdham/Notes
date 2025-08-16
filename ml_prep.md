@@ -8,6 +8,9 @@ Elements of statistical learning: Holy grail of ML
 ### 🧠 Concept
 
 TF-IDF scores a word’s importance in a document relative to a corpus. Common in NLP for converting text into numerical features.
+1. Get unique words $n$
+2. Get the scores of each word
+3. Each document is represented as a vector of $n$ values and each value is the importance of the $n$th word
 
 ### 🔢 Formula
 
