@@ -66,9 +66,9 @@ Examples:
 
 - better → good
 
-#### Stemming
+#### **S**temming
 
-Process that chops off word suffixes to reduce words to their root form <br>
+Process that chops off word **s**uffixes to reduce words to their root form <br>
 
 Examples:
 
