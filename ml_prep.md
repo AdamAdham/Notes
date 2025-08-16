@@ -17,13 +17,13 @@ $$
 
 Where:
 
-- $ \text{TF}(t, d) = \frac{f\_{t,d}}{N_d} $
+- $\text{TF}(t, d) = \frac{f\_{t,d}}{N_d}$
 
   - frequency of term $t$ in document $d$
   - $f_{t,d}$: count of $t$ in $d$
   - $N_d$: total terms in $d$
 
-- $ \text{IDF}(t) = \log \left( \frac{1 + |D|}{1 + \text{df}(t)} \right) + 1 $
+- $\text{IDF}(t) = \log \left( \frac{1 + |D|}{1 + \text{df}(t)} \right) + 1$
   - $|D|$: number of documents
   - $\text{df}(t)$: number of docs containing $t$
 
